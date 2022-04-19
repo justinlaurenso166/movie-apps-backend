@@ -1,9 +1,9 @@
 const config = {
     db: {
-        host: "sql107.epizy.com",
-        user: "epiz_31547808",
-        password: "LT0jQA8jrc",
-        database: "epiz_31547808_movies",
+        host: "bx7zfymkub8ccmer5lfa-mysql.services.clever-cloud.com",
+        user: "uf1xrxwaapixvhzb",
+        password: "28XN8U6hjM9F6KW3HjJL",
+        database: "bx7zfymkub8ccmer5lfa",
     }
 }
 
