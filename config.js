@@ -1,9 +1,9 @@
 const config = {
     db: {
-        host: "bsh5uxfeupainm4ofxd2-mysql.services.clever-cloud.com",
-        user: "udygqfcebmtsrgzk",
-        password: "xFUOrAWMglznODUe6VAw",
-        database: "bsh5uxfeupainm4ofxd2",
+        host: "bx7zfymkub8ccmer5lfa-mysql.services.clever-cloud.com",
+        user: "uf1xrxwaapixvhzb",
+        password: "28XN8U6hjM9F6KW3HjJL",
+        database: "bx7zfymkub8ccmer5lfa",
     }
 }
 
