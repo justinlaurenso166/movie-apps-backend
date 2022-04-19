@@ -24,10 +24,12 @@ app.use(
     })
 );
 
+app.use(express.static('public'));
+
 //! Use of Multer
 var storage = multer.diskStorage({
     destination: (req, file, callBack) => {
-        callBack(null, 'http://movie-apps.epizy.com/images/') // './public/images/' directory name where save the file
+        callBack(null, './public/images/') // './public/images/' directory name where save the file
     },
     filename: (req, file, callBack) => {
         callBack(null, file.fieldname + '_' + Date.now() + path.extname(file.originalname))
