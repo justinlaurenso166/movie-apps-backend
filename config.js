@@ -1,9 +1,9 @@
 const config = {
     db: {
-        host: "localhost",
-        user: "id18806896_justin123",
-        password: "yLfXb]cRxKh_7+R_",
-        database: "id18806896_movies",
+        host: "remotemysql.com",
+        user: "0teDO19s4v",
+        password: "GcAjZdy1q7",
+        database: "0teDO19s4v",
     }
 }
 

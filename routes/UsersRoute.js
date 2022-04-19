@@ -7,7 +7,6 @@ router.get("/all_user", async(req, res) => {
         res.json(await Users.getUser())
     } catch (error) {
         console.log(error.message)
-        next(error)
     }
 })
 
